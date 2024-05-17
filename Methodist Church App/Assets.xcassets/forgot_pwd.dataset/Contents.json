@@ -1,0 +1,12 @@
+{
+  "data" : [
+    {
+      "filename" : "forgot_pwd.json",
+      "idiom" : "universal"
+    }
+  ],
+  "info" : {
+    "author" : "xcode",
+    "version" : 1
+  }
+}

@@ -1,0 +1,5 @@
+#import <Foundation/Foundation.h>
+@interface PodsDummy_Pods_Methodist_Church_App_Methodist_Church_AppUITests : NSObject
+@end
+@implementation PodsDummy_Pods_Methodist_Church_App_Methodist_Church_AppUITests
+@end

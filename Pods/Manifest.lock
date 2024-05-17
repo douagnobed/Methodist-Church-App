@@ -1,0 +1,24 @@
+PODS:
+  - Alamofire (5.8.1)
+  - JWTDecode (3.1.0)
+  - lottie-ios (4.3.4)
+
+DEPENDENCIES:
+  - Alamofire
+  - JWTDecode (~> 3.1)
+  - lottie-ios
+
+SPEC REPOS:
+  trunk:
+    - Alamofire
+    - JWTDecode
+    - lottie-ios
+
+SPEC CHECKSUMS:
+  Alamofire: 3ca42e259043ee0dc5c0cdd76c4bc568b8e42af7
+  JWTDecode: 3eaab1e06b6f4dcbdd6716aff09ba4c2104ca8b7
+  lottie-ios: 3d98679b41fa6fd6aff2352b3953dbd3df8a397e
+
+PODFILE CHECKSUM: 79f7862f693197217dd91f7dd31e49eaf6b5c791
+
+COCOAPODS: 1.12.1

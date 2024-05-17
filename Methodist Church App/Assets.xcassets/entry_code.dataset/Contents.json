@@ -1,0 +1,12 @@
+{
+  "data" : [
+    {
+      "filename" : "entry_code.json",
+      "idiom" : "universal"
+    }
+  ],
+  "info" : {
+    "author" : "xcode",
+    "version" : 1
+  }
+}

@@ -1,0 +1,1517 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		596B60F3201CFC9C21EA2A2D /* Pods_Methodist_Church_App.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 33C93E0E52A6FE9F08E30B21 /* Pods_Methodist_Church_App.framework */; };
+		599FC6BA2B9CD8560019F511 /* Methodist_Church_AppApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 599FC6B92B9CD8560019F511 /* Methodist_Church_AppApp.swift */; };
+		599FC6BC2B9CD8560019F511 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 599FC6BB2B9CD8560019F511 /* ContentView.swift */; };
+		599FC6BE2B9CD8580019F511 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 599FC6BD2B9CD8580019F511 /* Assets.xcassets */; };
+		599FC6C12B9CD8580019F511 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 599FC6C02B9CD8580019F511 /* Preview Assets.xcassets */; };
+		599FC6C32B9CD8580019F511 /* Persistence.swift in Sources */ = {isa = PBXBuildFile; fileRef = 599FC6C22B9CD8580019F511 /* Persistence.swift */; };
+		599FC6C62B9CD8580019F511 /* Methodist_Church_App.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 599FC6C42B9CD8580019F511 /* Methodist_Church_App.xcdatamodeld */; };
+		599FC6D02B9CD8580019F511 /* Methodist_Church_AppTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 599FC6CF2B9CD8580019F511 /* Methodist_Church_AppTests.swift */; };
+		599FC6DA2B9CD8590019F511 /* Methodist_Church_AppUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 599FC6D92B9CD8590019F511 /* Methodist_Church_AppUITests.swift */; };
+		599FC6DC2B9CD8590019F511 /* Methodist_Church_AppUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 599FC6DB2B9CD8590019F511 /* Methodist_Church_AppUITestsLaunchTests.swift */; };
+		599FC6F82B9CDE0D0019F511 /* ErrorType.swift in Sources */ = {isa = PBXBuildFile; fileRef = 599FC6F42B9CDE0D0019F511 /* ErrorType.swift */; };
+		599FC6F92B9CDE0D0019F511 /* ErrorType.swift in Sources */ = {isa = PBXBuildFile; fileRef = 599FC6F42B9CDE0D0019F511 /* ErrorType.swift */; };
+		599FC6FA2B9CDE0D0019F511 /* ErrorType.swift in Sources */ = {isa = PBXBuildFile; fileRef = 599FC6F42B9CDE0D0019F511 /* ErrorType.swift */; };
+		599FC6FB2B9CDE0D0019F511 /* Endpoint.swift in Sources */ = {isa = PBXBuildFile; fileRef = 599FC6F52B9CDE0D0019F511 /* Endpoint.swift */; };
+		599FC6FC2B9CDE0D0019F511 /* Endpoint.swift in Sources */ = {isa = PBXBuildFile; fileRef = 599FC6F52B9CDE0D0019F511 /* Endpoint.swift */; };
+		599FC6FD2B9CDE0D0019F511 /* Endpoint.swift in Sources */ = {isa = PBXBuildFile; fileRef = 599FC6F52B9CDE0D0019F511 /* Endpoint.swift */; };
+		599FC6FE2B9CDE0D0019F511 /* AlertDialog.swift in Sources */ = {isa = PBXBuildFile; fileRef = 599FC6F62B9CDE0D0019F511 /* AlertDialog.swift */; };
+		599FC6FF2B9CDE0D0019F511 /* AlertDialog.swift in Sources */ = {isa = PBXBuildFile; fileRef = 599FC6F62B9CDE0D0019F511 /* AlertDialog.swift */; };
+		599FC7002B9CDE0D0019F511 /* AlertDialog.swift in Sources */ = {isa = PBXBuildFile; fileRef = 599FC6F62B9CDE0D0019F511 /* AlertDialog.swift */; };
+		599FC7012B9CDE0D0019F511 /* Globals.swift in Sources */ = {isa = PBXBuildFile; fileRef = 599FC6F72B9CDE0D0019F511 /* Globals.swift */; };
+		599FC7022B9CDE0D0019F511 /* Globals.swift in Sources */ = {isa = PBXBuildFile; fileRef = 599FC6F72B9CDE0D0019F511 /* Globals.swift */; };
+		599FC7032B9CDE0D0019F511 /* Globals.swift in Sources */ = {isa = PBXBuildFile; fileRef = 599FC6F72B9CDE0D0019F511 /* Globals.swift */; };
+		599FC7142B9CDE430019F511 /* Evangelism.swift in Sources */ = {isa = PBXBuildFile; fileRef = 599FC7042B9CDE420019F511 /* Evangelism.swift */; };
+		599FC7152B9CDE430019F511 /* Evangelism.swift in Sources */ = {isa = PBXBuildFile; fileRef = 599FC7042B9CDE420019F511 /* Evangelism.swift */; };
+		599FC7162B9CDE430019F511 /* Evangelism.swift in Sources */ = {isa = PBXBuildFile; fileRef = 599FC7042B9CDE420019F511 /* Evangelism.swift */; };
+		599FC7172B9CDE430019F511 /* Event.swift in Sources */ = {isa = PBXBuildFile; fileRef = 599FC7052B9CDE420019F511 /* Event.swift */; };
+		599FC7182B9CDE430019F511 /* Event.swift in Sources */ = {isa = PBXBuildFile; fileRef = 599FC7052B9CDE420019F511 /* Event.swift */; };
+		599FC7192B9CDE430019F511 /* Event.swift in Sources */ = {isa = PBXBuildFile; fileRef = 599FC7052B9CDE420019F511 /* Event.swift */; };
+		599FC71A2B9CDE430019F511 /* Church.swift in Sources */ = {isa = PBXBuildFile; fileRef = 599FC7062B9CDE420019F511 /* Church.swift */; };
+		599FC71B2B9CDE430019F511 /* Church.swift in Sources */ = {isa = PBXBuildFile; fileRef = 599FC7062B9CDE420019F511 /* Church.swift */; };
+		599FC71C2B9CDE430019F511 /* Church.swift in Sources */ = {isa = PBXBuildFile; fileRef = 599FC7062B9CDE420019F511 /* Church.swift */; };
+		599FC71D2B9CDE430019F511 /* Note.swift in Sources */ = {isa = PBXBuildFile; fileRef = 599FC7072B9CDE420019F511 /* Note.swift */; };
+		599FC71E2B9CDE430019F511 /* Note.swift in Sources */ = {isa = PBXBuildFile; fileRef = 599FC7072B9CDE420019F511 /* Note.swift */; };
+		599FC71F2B9CDE430019F511 /* Note.swift in Sources */ = {isa = PBXBuildFile; fileRef = 599FC7072B9CDE420019F511 /* Note.swift */; };
+		599FC7202B9CDE430019F511 /* Diocese.swift in Sources */ = {isa = PBXBuildFile; fileRef = 599FC7082B9CDE420019F511 /* Diocese.swift */; };
+		599FC7212B9CDE430019F511 /* Diocese.swift in Sources */ = {isa = PBXBuildFile; fileRef = 599FC7082B9CDE420019F511 /* Diocese.swift */; };
+		599FC7222B9CDE430019F511 /* Diocese.swift in Sources */ = {isa = PBXBuildFile; fileRef = 599FC7082B9CDE420019F511 /* Diocese.swift */; };
+		599FC7232B9CDE430019F511 /* OrganizationMember.swift in Sources */ = {isa = PBXBuildFile; fileRef = 599FC7092B9CDE420019F511 /* OrganizationMember.swift */; };
+		599FC7242B9CDE430019F511 /* OrganizationMember.swift in Sources */ = {isa = PBXBuildFile; fileRef = 599FC7092B9CDE420019F511 /* OrganizationMember.swift */; };
+		599FC7252B9CDE430019F511 /* OrganizationMember.swift in Sources */ = {isa = PBXBuildFile; fileRef = 599FC7092B9CDE420019F511 /* OrganizationMember.swift */; };
+		599FC7262B9CDE430019F511 /* AlertItem.swift in Sources */ = {isa = PBXBuildFile; fileRef = 599FC70A2B9CDE420019F511 /* AlertItem.swift */; };
+		599FC7272B9CDE430019F511 /* AlertItem.swift in Sources */ = {isa = PBXBuildFile; fileRef = 599FC70A2B9CDE420019F511 /* AlertItem.swift */; };
+		599FC7282B9CDE430019F511 /* AlertItem.swift in Sources */ = {isa = PBXBuildFile; fileRef = 599FC70A2B9CDE420019F511 /* AlertItem.swift */; };
+		599FC7292B9CDE430019F511 /* LiturgyExpansionTile.swift in Sources */ = {isa = PBXBuildFile; fileRef = 599FC70B2B9CDE420019F511 /* LiturgyExpansionTile.swift */; };
+		599FC72A2B9CDE430019F511 /* LiturgyExpansionTile.swift in Sources */ = {isa = PBXBuildFile; fileRef = 599FC70B2B9CDE420019F511 /* LiturgyExpansionTile.swift */; };
+		599FC72B2B9CDE430019F511 /* LiturgyExpansionTile.swift in Sources */ = {isa = PBXBuildFile; fileRef = 599FC70B2B9CDE420019F511 /* LiturgyExpansionTile.swift */; };
+		599FC72C2B9CDE430019F511 /* LiturgyContent.swift in Sources */ = {isa = PBXBuildFile; fileRef = 599FC70C2B9CDE420019F511 /* LiturgyContent.swift */; };
+		599FC72D2B9CDE430019F511 /* LiturgyContent.swift in Sources */ = {isa = PBXBuildFile; fileRef = 599FC70C2B9CDE420019F511 /* LiturgyContent.swift */; };
+		599FC72E2B9CDE430019F511 /* LiturgyContent.swift in Sources */ = {isa = PBXBuildFile; fileRef = 599FC70C2B9CDE420019F511 /* LiturgyContent.swift */; };
+		599FC72F2B9CDE430019F511 /* Attendance.swift in Sources */ = {isa = PBXBuildFile; fileRef = 599FC70D2B9CDE420019F511 /* Attendance.swift */; };
+		599FC7302B9CDE430019F511 /* Attendance.swift in Sources */ = {isa = PBXBuildFile; fileRef = 599FC70D2B9CDE420019F511 /* Attendance.swift */; };
+		599FC7312B9CDE430019F511 /* Attendance.swift in Sources */ = {isa = PBXBuildFile; fileRef = 599FC70D2B9CDE420019F511 /* Attendance.swift */; };
+		599FC7322B9CDE430019F511 /* SocietyEvent.swift in Sources */ = {isa = PBXBuildFile; fileRef = 599FC70E2B9CDE420019F511 /* SocietyEvent.swift */; };
+		599FC7332B9CDE430019F511 /* SocietyEvent.swift in Sources */ = {isa = PBXBuildFile; fileRef = 599FC70E2B9CDE420019F511 /* SocietyEvent.swift */; };
+		599FC7342B9CDE430019F511 /* SocietyEvent.swift in Sources */ = {isa = PBXBuildFile; fileRef = 599FC70E2B9CDE420019F511 /* SocietyEvent.swift */; };
+		599FC7352B9CDE430019F511 /* News.swift in Sources */ = {isa = PBXBuildFile; fileRef = 599FC70F2B9CDE420019F511 /* News.swift */; };
+		599FC7362B9CDE430019F511 /* News.swift in Sources */ = {isa = PBXBuildFile; fileRef = 599FC70F2B9CDE420019F511 /* News.swift */; };
+		599FC7372B9CDE430019F511 /* News.swift in Sources */ = {isa = PBXBuildFile; fileRef = 599FC70F2B9CDE420019F511 /* News.swift */; };
+		599FC7382B9CDE430019F511 /* AttendanceMember.swift in Sources */ = {isa = PBXBuildFile; fileRef = 599FC7102B9CDE420019F511 /* AttendanceMember.swift */; };
+		599FC7392B9CDE430019F511 /* AttendanceMember.swift in Sources */ = {isa = PBXBuildFile; fileRef = 599FC7102B9CDE420019F511 /* AttendanceMember.swift */; };
+		599FC73A2B9CDE430019F511 /* AttendanceMember.swift in Sources */ = {isa = PBXBuildFile; fileRef = 599FC7102B9CDE420019F511 /* AttendanceMember.swift */; };
+		599FC73B2B9CDE430019F511 /* Hymnal.swift in Sources */ = {isa = PBXBuildFile; fileRef = 599FC7112B9CDE430019F511 /* Hymnal.swift */; };
+		599FC73C2B9CDE430019F511 /* Hymnal.swift in Sources */ = {isa = PBXBuildFile; fileRef = 599FC7112B9CDE430019F511 /* Hymnal.swift */; };
+		599FC73D2B9CDE430019F511 /* Hymnal.swift in Sources */ = {isa = PBXBuildFile; fileRef = 599FC7112B9CDE430019F511 /* Hymnal.swift */; };
+		599FC73E2B9CDE430019F511 /* Organization.swift in Sources */ = {isa = PBXBuildFile; fileRef = 599FC7122B9CDE430019F511 /* Organization.swift */; };
+		599FC73F2B9CDE430019F511 /* Organization.swift in Sources */ = {isa = PBXBuildFile; fileRef = 599FC7122B9CDE430019F511 /* Organization.swift */; };
+		599FC7402B9CDE430019F511 /* Organization.swift in Sources */ = {isa = PBXBuildFile; fileRef = 599FC7122B9CDE430019F511 /* Organization.swift */; };
+		599FC7412B9CDE430019F511 /* AuthUser.swift in Sources */ = {isa = PBXBuildFile; fileRef = 599FC7132B9CDE430019F511 /* AuthUser.swift */; };
+		599FC7422B9CDE430019F511 /* AuthUser.swift in Sources */ = {isa = PBXBuildFile; fileRef = 599FC7132B9CDE430019F511 /* AuthUser.swift */; };
+		599FC7432B9CDE430019F511 /* AuthUser.swift in Sources */ = {isa = PBXBuildFile; fileRef = 599FC7132B9CDE430019F511 /* AuthUser.swift */; };
+		599FC7462B9CDE5C0019F511 /* LoginRequest.swift in Sources */ = {isa = PBXBuildFile; fileRef = 599FC7442B9CDE5C0019F511 /* LoginRequest.swift */; };
+		599FC7472B9CDE5C0019F511 /* LoginRequest.swift in Sources */ = {isa = PBXBuildFile; fileRef = 599FC7442B9CDE5C0019F511 /* LoginRequest.swift */; };
+		599FC7482B9CDE5C0019F511 /* LoginRequest.swift in Sources */ = {isa = PBXBuildFile; fileRef = 599FC7442B9CDE5C0019F511 /* LoginRequest.swift */; };
+		599FC7492B9CDE5C0019F511 /* PasswordResetRequest.swift in Sources */ = {isa = PBXBuildFile; fileRef = 599FC7452B9CDE5C0019F511 /* PasswordResetRequest.swift */; };
+		599FC74A2B9CDE5C0019F511 /* PasswordResetRequest.swift in Sources */ = {isa = PBXBuildFile; fileRef = 599FC7452B9CDE5C0019F511 /* PasswordResetRequest.swift */; };
+		599FC74B2B9CDE5C0019F511 /* PasswordResetRequest.swift in Sources */ = {isa = PBXBuildFile; fileRef = 599FC7452B9CDE5C0019F511 /* PasswordResetRequest.swift */; };
+		599FC74D2B9CDE6B0019F511 /* JoinOrganizationResponse.swift in Sources */ = {isa = PBXBuildFile; fileRef = 599FC74C2B9CDE6B0019F511 /* JoinOrganizationResponse.swift */; };
+		599FC74E2B9CDE6B0019F511 /* JoinOrganizationResponse.swift in Sources */ = {isa = PBXBuildFile; fileRef = 599FC74C2B9CDE6B0019F511 /* JoinOrganizationResponse.swift */; };
+		599FC74F2B9CDE6B0019F511 /* JoinOrganizationResponse.swift in Sources */ = {isa = PBXBuildFile; fileRef = 599FC74C2B9CDE6B0019F511 /* JoinOrganizationResponse.swift */; };
+		599FC7532B9CDE800019F511 /* UserStore.swift in Sources */ = {isa = PBXBuildFile; fileRef = 599FC7502B9CDE800019F511 /* UserStore.swift */; };
+		599FC7542B9CDE800019F511 /* UserStore.swift in Sources */ = {isa = PBXBuildFile; fileRef = 599FC7502B9CDE800019F511 /* UserStore.swift */; };
+		599FC7552B9CDE800019F511 /* UserStore.swift in Sources */ = {isa = PBXBuildFile; fileRef = 599FC7502B9CDE800019F511 /* UserStore.swift */; };
+		599FC7562B9CDE800019F511 /* EventStore.swift in Sources */ = {isa = PBXBuildFile; fileRef = 599FC7512B9CDE800019F511 /* EventStore.swift */; };
+		599FC7572B9CDE800019F511 /* EventStore.swift in Sources */ = {isa = PBXBuildFile; fileRef = 599FC7512B9CDE800019F511 /* EventStore.swift */; };
+		599FC7582B9CDE800019F511 /* EventStore.swift in Sources */ = {isa = PBXBuildFile; fileRef = 599FC7512B9CDE800019F511 /* EventStore.swift */; };
+		599FC7592B9CDE800019F511 /* Store.swift in Sources */ = {isa = PBXBuildFile; fileRef = 599FC7522B9CDE800019F511 /* Store.swift */; };
+		599FC75A2B9CDE800019F511 /* Store.swift in Sources */ = {isa = PBXBuildFile; fileRef = 599FC7522B9CDE800019F511 /* Store.swift */; };
+		599FC75B2B9CDE800019F511 /* Store.swift in Sources */ = {isa = PBXBuildFile; fileRef = 599FC7522B9CDE800019F511 /* Store.swift */; };
+		599FC7632B9CDE990019F511 /* FantseHymnalData.swift in Sources */ = {isa = PBXBuildFile; fileRef = 599FC75C2B9CDE990019F511 /* FantseHymnalData.swift */; };
+		599FC7642B9CDE990019F511 /* FantseHymnalData.swift in Sources */ = {isa = PBXBuildFile; fileRef = 599FC75C2B9CDE990019F511 /* FantseHymnalData.swift */; };
+		599FC7652B9CDE990019F511 /* FantseHymnalData.swift in Sources */ = {isa = PBXBuildFile; fileRef = 599FC75C2B9CDE990019F511 /* FantseHymnalData.swift */; };
+		599FC7662B9CDE990019F511 /* HymnalData.swift in Sources */ = {isa = PBXBuildFile; fileRef = 599FC75D2B9CDE990019F511 /* HymnalData.swift */; };
+		599FC7672B9CDE990019F511 /* HymnalData.swift in Sources */ = {isa = PBXBuildFile; fileRef = 599FC75D2B9CDE990019F511 /* HymnalData.swift */; };
+		599FC7682B9CDE990019F511 /* HymnalData.swift in Sources */ = {isa = PBXBuildFile; fileRef = 599FC75D2B9CDE990019F511 /* HymnalData.swift */; };
+		599FC7692B9CDE990019F511 /* DioceseData.swift in Sources */ = {isa = PBXBuildFile; fileRef = 599FC75E2B9CDE990019F511 /* DioceseData.swift */; };
+		599FC76A2B9CDE990019F511 /* DioceseData.swift in Sources */ = {isa = PBXBuildFile; fileRef = 599FC75E2B9CDE990019F511 /* DioceseData.swift */; };
+		599FC76B2B9CDE990019F511 /* DioceseData.swift in Sources */ = {isa = PBXBuildFile; fileRef = 599FC75E2B9CDE990019F511 /* DioceseData.swift */; };
+		599FC76C2B9CDE990019F511 /* FantseCanticleData.swift in Sources */ = {isa = PBXBuildFile; fileRef = 599FC75F2B9CDE990019F511 /* FantseCanticleData.swift */; };
+		599FC76D2B9CDE990019F511 /* FantseCanticleData.swift in Sources */ = {isa = PBXBuildFile; fileRef = 599FC75F2B9CDE990019F511 /* FantseCanticleData.swift */; };
+		599FC76E2B9CDE990019F511 /* FantseCanticleData.swift in Sources */ = {isa = PBXBuildFile; fileRef = 599FC75F2B9CDE990019F511 /* FantseCanticleData.swift */; };
+		599FC76F2B9CDE990019F511 /* EvangelismData.swift in Sources */ = {isa = PBXBuildFile; fileRef = 599FC7602B9CDE990019F511 /* EvangelismData.swift */; };
+		599FC7702B9CDE990019F511 /* EvangelismData.swift in Sources */ = {isa = PBXBuildFile; fileRef = 599FC7602B9CDE990019F511 /* EvangelismData.swift */; };
+		599FC7712B9CDE990019F511 /* EvangelismData.swift in Sources */ = {isa = PBXBuildFile; fileRef = 599FC7602B9CDE990019F511 /* EvangelismData.swift */; };
+		599FC7722B9CDE990019F511 /* LiturgyData.swift in Sources */ = {isa = PBXBuildFile; fileRef = 599FC7612B9CDE990019F511 /* LiturgyData.swift */; };
+		599FC7732B9CDE990019F511 /* LiturgyData.swift in Sources */ = {isa = PBXBuildFile; fileRef = 599FC7612B9CDE990019F511 /* LiturgyData.swift */; };
+		599FC7742B9CDE990019F511 /* LiturgyData.swift in Sources */ = {isa = PBXBuildFile; fileRef = 599FC7612B9CDE990019F511 /* LiturgyData.swift */; };
+		599FC7752B9CDE990019F511 /* OtherHymnal.swift in Sources */ = {isa = PBXBuildFile; fileRef = 599FC7622B9CDE990019F511 /* OtherHymnal.swift */; };
+		599FC7762B9CDE990019F511 /* OtherHymnal.swift in Sources */ = {isa = PBXBuildFile; fileRef = 599FC7622B9CDE990019F511 /* OtherHymnal.swift */; };
+		599FC7772B9CDE990019F511 /* OtherHymnal.swift in Sources */ = {isa = PBXBuildFile; fileRef = 599FC7622B9CDE990019F511 /* OtherHymnal.swift */; };
+		599FC7802B9CDEC80019F511 /* AuthViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 599FC7782B9CDEC70019F511 /* AuthViewModel.swift */; };
+		599FC7812B9CDEC80019F511 /* AuthViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 599FC7782B9CDEC70019F511 /* AuthViewModel.swift */; };
+		599FC7822B9CDEC80019F511 /* AuthViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 599FC7782B9CDEC70019F511 /* AuthViewModel.swift */; };
+		599FC7832B9CDEC80019F511 /* OrganizationViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 599FC7792B9CDEC70019F511 /* OrganizationViewModel.swift */; };
+		599FC7842B9CDEC80019F511 /* OrganizationViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 599FC7792B9CDEC70019F511 /* OrganizationViewModel.swift */; };
+		599FC7852B9CDEC80019F511 /* OrganizationViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 599FC7792B9CDEC70019F511 /* OrganizationViewModel.swift */; };
+		599FC7862B9CDEC80019F511 /* LocationViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 599FC77A2B9CDEC70019F511 /* LocationViewModel.swift */; };
+		599FC7872B9CDEC80019F511 /* LocationViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 599FC77A2B9CDEC70019F511 /* LocationViewModel.swift */; };
+		599FC7882B9CDEC80019F511 /* LocationViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 599FC77A2B9CDEC70019F511 /* LocationViewModel.swift */; };
+		599FC7892B9CDEC80019F511 /* NewsViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 599FC77B2B9CDEC80019F511 /* NewsViewModel.swift */; };
+		599FC78A2B9CDEC80019F511 /* NewsViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 599FC77B2B9CDEC80019F511 /* NewsViewModel.swift */; };
+		599FC78B2B9CDEC80019F511 /* NewsViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 599FC77B2B9CDEC80019F511 /* NewsViewModel.swift */; };
+		599FC78C2B9CDEC80019F511 /* ChurchViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 599FC77C2B9CDEC80019F511 /* ChurchViewModel.swift */; };
+		599FC78D2B9CDEC80019F511 /* ChurchViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 599FC77C2B9CDEC80019F511 /* ChurchViewModel.swift */; };
+		599FC78E2B9CDEC80019F511 /* ChurchViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 599FC77C2B9CDEC80019F511 /* ChurchViewModel.swift */; };
+		599FC78F2B9CDEC80019F511 /* SocietyEventViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 599FC77D2B9CDEC80019F511 /* SocietyEventViewModel.swift */; };
+		599FC7902B9CDEC80019F511 /* SocietyEventViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 599FC77D2B9CDEC80019F511 /* SocietyEventViewModel.swift */; };
+		599FC7912B9CDEC80019F511 /* SocietyEventViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 599FC77D2B9CDEC80019F511 /* SocietyEventViewModel.swift */; };
+		599FC7922B9CDEC80019F511 /* HymnalViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 599FC77E2B9CDEC80019F511 /* HymnalViewModel.swift */; };
+		599FC7932B9CDEC80019F511 /* HymnalViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 599FC77E2B9CDEC80019F511 /* HymnalViewModel.swift */; };
+		599FC7942B9CDEC80019F511 /* HymnalViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 599FC77E2B9CDEC80019F511 /* HymnalViewModel.swift */; };
+		599FC7952B9CDEC80019F511 /* ClassAttendanceViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 599FC77F2B9CDEC80019F511 /* ClassAttendanceViewModel.swift */; };
+		599FC7962B9CDEC80019F511 /* ClassAttendanceViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 599FC77F2B9CDEC80019F511 /* ClassAttendanceViewModel.swift */; };
+		599FC7972B9CDEC80019F511 /* ClassAttendanceViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 599FC77F2B9CDEC80019F511 /* ClassAttendanceViewModel.swift */; };
+		599FC7A32B9CDEEB0019F511 /* ManageClassView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 599FC7982B9CDEEB0019F511 /* ManageClassView.swift */; };
+		599FC7A42B9CDEEB0019F511 /* ManageClassView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 599FC7982B9CDEEB0019F511 /* ManageClassView.swift */; };
+		599FC7A52B9CDEEB0019F511 /* ManageClassView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 599FC7982B9CDEEB0019F511 /* ManageClassView.swift */; };
+		599FC7A62B9CDEEB0019F511 /* MethodismView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 599FC7992B9CDEEB0019F511 /* MethodismView.swift */; };
+		599FC7A72B9CDEEB0019F511 /* MethodismView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 599FC7992B9CDEEB0019F511 /* MethodismView.swift */; };
+		599FC7A82B9CDEEB0019F511 /* MethodismView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 599FC7992B9CDEEB0019F511 /* MethodismView.swift */; };
+		599FC7A92B9CDEEB0019F511 /* OrganizationView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 599FC79A2B9CDEEB0019F511 /* OrganizationView.swift */; };
+		599FC7AA2B9CDEEB0019F511 /* OrganizationView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 599FC79A2B9CDEEB0019F511 /* OrganizationView.swift */; };
+		599FC7AB2B9CDEEB0019F511 /* OrganizationView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 599FC79A2B9CDEEB0019F511 /* OrganizationView.swift */; };
+		599FC7AC2B9CDEEB0019F511 /* ContactView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 599FC79B2B9CDEEB0019F511 /* ContactView.swift */; };
+		599FC7AD2B9CDEEB0019F511 /* ContactView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 599FC79B2B9CDEEB0019F511 /* ContactView.swift */; };
+		599FC7AE2B9CDEEB0019F511 /* ContactView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 599FC79B2B9CDEEB0019F511 /* ContactView.swift */; };
+		599FC7AF2B9CDEEB0019F511 /* NearbyChurchView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 599FC79C2B9CDEEB0019F511 /* NearbyChurchView.swift */; };
+		599FC7B02B9CDEEB0019F511 /* NearbyChurchView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 599FC79C2B9CDEEB0019F511 /* NearbyChurchView.swift */; };
+		599FC7B12B9CDEEB0019F511 /* NearbyChurchView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 599FC79C2B9CDEEB0019F511 /* NearbyChurchView.swift */; };
+		599FC7B22B9CDEEB0019F511 /* DashboardView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 599FC79D2B9CDEEB0019F511 /* DashboardView.swift */; };
+		599FC7B32B9CDEEB0019F511 /* DashboardView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 599FC79D2B9CDEEB0019F511 /* DashboardView.swift */; };
+		599FC7B42B9CDEEB0019F511 /* DashboardView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 599FC79D2B9CDEEB0019F511 /* DashboardView.swift */; };
+		599FC7B52B9CDEEB0019F511 /* FinancialRecordView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 599FC79E2B9CDEEB0019F511 /* FinancialRecordView.swift */; };
+		599FC7B62B9CDEEB0019F511 /* FinancialRecordView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 599FC79E2B9CDEEB0019F511 /* FinancialRecordView.swift */; };
+		599FC7B72B9CDEEB0019F511 /* FinancialRecordView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 599FC79E2B9CDEEB0019F511 /* FinancialRecordView.swift */; };
+		599FC7B82B9CDEEB0019F511 /* ShopView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 599FC79F2B9CDEEB0019F511 /* ShopView.swift */; };
+		599FC7B92B9CDEEB0019F511 /* ShopView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 599FC79F2B9CDEEB0019F511 /* ShopView.swift */; };
+		599FC7BA2B9CDEEB0019F511 /* ShopView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 599FC79F2B9CDEEB0019F511 /* ShopView.swift */; };
+		599FC7BB2B9CDEEB0019F511 /* FindView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 599FC7A02B9CDEEB0019F511 /* FindView.swift */; };
+		599FC7BC2B9CDEEB0019F511 /* FindView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 599FC7A02B9CDEEB0019F511 /* FindView.swift */; };
+		599FC7BD2B9CDEEB0019F511 /* FindView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 599FC7A02B9CDEEB0019F511 /* FindView.swift */; };
+		599FC7BE2B9CDEEB0019F511 /* HomeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 599FC7A12B9CDEEB0019F511 /* HomeView.swift */; };
+		599FC7BF2B9CDEEB0019F511 /* HomeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 599FC7A12B9CDEEB0019F511 /* HomeView.swift */; };
+		599FC7C02B9CDEEB0019F511 /* HomeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 599FC7A12B9CDEEB0019F511 /* HomeView.swift */; };
+		599FC7C12B9CDEEB0019F511 /* PaymentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 599FC7A22B9CDEEB0019F511 /* PaymentView.swift */; };
+		599FC7C22B9CDEEB0019F511 /* PaymentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 599FC7A22B9CDEEB0019F511 /* PaymentView.swift */; };
+		599FC7C32B9CDEEB0019F511 /* PaymentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 599FC7A22B9CDEEB0019F511 /* PaymentView.swift */; };
+		599FC7D42B9CDF3A0019F511 /* CarouselView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 599FC7C52B9CDF390019F511 /* CarouselView.swift */; };
+		599FC7D52B9CDF3A0019F511 /* CarouselView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 599FC7C52B9CDF390019F511 /* CarouselView.swift */; };
+		599FC7D62B9CDF3A0019F511 /* CarouselView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 599FC7C52B9CDF390019F511 /* CarouselView.swift */; };
+		599FC7D72B9CDF3A0019F511 /* ExpansionTile.swift in Sources */ = {isa = PBXBuildFile; fileRef = 599FC7C62B9CDF390019F511 /* ExpansionTile.swift */; };
+		599FC7D82B9CDF3A0019F511 /* ExpansionTile.swift in Sources */ = {isa = PBXBuildFile; fileRef = 599FC7C62B9CDF390019F511 /* ExpansionTile.swift */; };
+		599FC7D92B9CDF3A0019F511 /* ExpansionTile.swift in Sources */ = {isa = PBXBuildFile; fileRef = 599FC7C62B9CDF390019F511 /* ExpansionTile.swift */; };
+		599FC7DA2B9CDF3A0019F511 /* Wave.swift in Sources */ = {isa = PBXBuildFile; fileRef = 599FC7C72B9CDF390019F511 /* Wave.swift */; };
+		599FC7DB2B9CDF3A0019F511 /* Wave.swift in Sources */ = {isa = PBXBuildFile; fileRef = 599FC7C72B9CDF390019F511 /* Wave.swift */; };
+		599FC7DC2B9CDF3A0019F511 /* Wave.swift in Sources */ = {isa = PBXBuildFile; fileRef = 599FC7C72B9CDF390019F511 /* Wave.swift */; };
+		599FC7DD2B9CDF3A0019F511 /* AppbarView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 599FC7C82B9CDF390019F511 /* AppbarView.swift */; };
+		599FC7DE2B9CDF3A0019F511 /* AppbarView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 599FC7C82B9CDF390019F511 /* AppbarView.swift */; };
+		599FC7DF2B9CDF3A0019F511 /* AppbarView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 599FC7C82B9CDF390019F511 /* AppbarView.swift */; };
+		599FC7E02B9CDF3A0019F511 /* CustomAppbar.swift in Sources */ = {isa = PBXBuildFile; fileRef = 599FC7C92B9CDF390019F511 /* CustomAppbar.swift */; };
+		599FC7E12B9CDF3A0019F511 /* CustomAppbar.swift in Sources */ = {isa = PBXBuildFile; fileRef = 599FC7C92B9CDF390019F511 /* CustomAppbar.swift */; };
+		599FC7E22B9CDF3A0019F511 /* CustomAppbar.swift in Sources */ = {isa = PBXBuildFile; fileRef = 599FC7C92B9CDF390019F511 /* CustomAppbar.swift */; };
+		599FC7E32B9CDF3A0019F511 /* NavbarButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 599FC7CA2B9CDF390019F511 /* NavbarButton.swift */; };
+		599FC7E42B9CDF3A0019F511 /* NavbarButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 599FC7CA2B9CDF390019F511 /* NavbarButton.swift */; };
+		599FC7E52B9CDF3A0019F511 /* NavbarButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 599FC7CA2B9CDF390019F511 /* NavbarButton.swift */; };
+		599FC7E62B9CDF3A0019F511 /* CustomInputField.swift in Sources */ = {isa = PBXBuildFile; fileRef = 599FC7CB2B9CDF390019F511 /* CustomInputField.swift */; };
+		599FC7E72B9CDF3A0019F511 /* CustomInputField.swift in Sources */ = {isa = PBXBuildFile; fileRef = 599FC7CB2B9CDF390019F511 /* CustomInputField.swift */; };
+		599FC7E82B9CDF3A0019F511 /* CustomInputField.swift in Sources */ = {isa = PBXBuildFile; fileRef = 599FC7CB2B9CDF390019F511 /* CustomInputField.swift */; };
+		599FC7E92B9CDF3A0019F511 /* DashboardMenuButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 599FC7CC2B9CDF3A0019F511 /* DashboardMenuButton.swift */; };
+		599FC7EA2B9CDF3A0019F511 /* DashboardMenuButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 599FC7CC2B9CDF3A0019F511 /* DashboardMenuButton.swift */; };
+		599FC7EB2B9CDF3A0019F511 /* DashboardMenuButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 599FC7CC2B9CDF3A0019F511 /* DashboardMenuButton.swift */; };
+		599FC7EC2B9CDF3A0019F511 /* ExpandableTextView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 599FC7CD2B9CDF3A0019F511 /* ExpandableTextView.swift */; };
+		599FC7ED2B9CDF3A0019F511 /* ExpandableTextView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 599FC7CD2B9CDF3A0019F511 /* ExpandableTextView.swift */; };
+		599FC7EE2B9CDF3A0019F511 /* ExpandableTextView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 599FC7CD2B9CDF3A0019F511 /* ExpandableTextView.swift */; };
+		599FC7EF2B9CDF3A0019F511 /* Shimmer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 599FC7CE2B9CDF3A0019F511 /* Shimmer.swift */; };
+		599FC7F02B9CDF3A0019F511 /* Shimmer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 599FC7CE2B9CDF3A0019F511 /* Shimmer.swift */; };
+		599FC7F12B9CDF3A0019F511 /* Shimmer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 599FC7CE2B9CDF3A0019F511 /* Shimmer.swift */; };
+		599FC7F22B9CDF3A0019F511 /* AccordinView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 599FC7CF2B9CDF3A0019F511 /* AccordinView.swift */; };
+		599FC7F32B9CDF3A0019F511 /* AccordinView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 599FC7CF2B9CDF3A0019F511 /* AccordinView.swift */; };
+		599FC7F42B9CDF3A0019F511 /* AccordinView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 599FC7CF2B9CDF3A0019F511 /* AccordinView.swift */; };
+		599FC7F52B9CDF3A0019F511 /* SideMenuHeaderView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 599FC7D02B9CDF3A0019F511 /* SideMenuHeaderView.swift */; };
+		599FC7F62B9CDF3A0019F511 /* SideMenuHeaderView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 599FC7D02B9CDF3A0019F511 /* SideMenuHeaderView.swift */; };
+		599FC7F72B9CDF3A0019F511 /* SideMenuHeaderView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 599FC7D02B9CDF3A0019F511 /* SideMenuHeaderView.swift */; };
+		599FC7F82B9CDF3A0019F511 /* RadioButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 599FC7D12B9CDF3A0019F511 /* RadioButton.swift */; };
+		599FC7F92B9CDF3A0019F511 /* RadioButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 599FC7D12B9CDF3A0019F511 /* RadioButton.swift */; };
+		599FC7FA2B9CDF3A0019F511 /* RadioButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 599FC7D12B9CDF3A0019F511 /* RadioButton.swift */; };
+		599FC7FB2B9CDF3A0019F511 /* Appbar_1.swift in Sources */ = {isa = PBXBuildFile; fileRef = 599FC7D22B9CDF3A0019F511 /* Appbar_1.swift */; };
+		599FC7FC2B9CDF3A0019F511 /* Appbar_1.swift in Sources */ = {isa = PBXBuildFile; fileRef = 599FC7D22B9CDF3A0019F511 /* Appbar_1.swift */; };
+		599FC7FD2B9CDF3A0019F511 /* Appbar_1.swift in Sources */ = {isa = PBXBuildFile; fileRef = 599FC7D22B9CDF3A0019F511 /* Appbar_1.swift */; };
+		599FC7FE2B9CDF3A0019F511 /* SideMenuView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 599FC7D32B9CDF3A0019F511 /* SideMenuView.swift */; };
+		599FC7FF2B9CDF3A0019F511 /* SideMenuView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 599FC7D32B9CDF3A0019F511 /* SideMenuView.swift */; };
+		599FC8002B9CDF3A0019F511 /* SideMenuView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 599FC7D32B9CDF3A0019F511 /* SideMenuView.swift */; };
+		599FC8042B9CDF6D0019F511 /* SignUpView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 599FC8032B9CDF6D0019F511 /* SignUpView.swift */; };
+		599FC8052B9CDF6D0019F511 /* SignUpView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 599FC8032B9CDF6D0019F511 /* SignUpView.swift */; };
+		599FC8062B9CDF6D0019F511 /* SignUpView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 599FC8032B9CDF6D0019F511 /* SignUpView.swift */; };
+		599FC8082B9CDF810019F511 /* NewsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 599FC8072B9CDF810019F511 /* NewsView.swift */; };
+		599FC8092B9CDF810019F511 /* NewsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 599FC8072B9CDF810019F511 /* NewsView.swift */; };
+		599FC80A2B9CDF810019F511 /* NewsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 599FC8072B9CDF810019F511 /* NewsView.swift */; };
+		599FC80E2B9CDFA20019F511 /* NoteListView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 599FC80C2B9CDFA20019F511 /* NoteListView.swift */; };
+		599FC80F2B9CDFA20019F511 /* NoteListView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 599FC80C2B9CDFA20019F511 /* NoteListView.swift */; };
+		599FC8102B9CDFA20019F511 /* NoteListView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 599FC80C2B9CDFA20019F511 /* NoteListView.swift */; };
+		599FC8112B9CDFA20019F511 /* AddNoteView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 599FC80D2B9CDFA20019F511 /* AddNoteView.swift */; };
+		599FC8122B9CDFA20019F511 /* AddNoteView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 599FC80D2B9CDFA20019F511 /* AddNoteView.swift */; };
+		599FC8132B9CDFA20019F511 /* AddNoteView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 599FC80D2B9CDFA20019F511 /* AddNoteView.swift */; };
+		599FC8172B9CDFC60019F511 /* HymnalPanelView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 599FC8152B9CDFC60019F511 /* HymnalPanelView.swift */; };
+		599FC8182B9CDFC60019F511 /* HymnalPanelView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 599FC8152B9CDFC60019F511 /* HymnalPanelView.swift */; };
+		599FC8192B9CDFC60019F511 /* HymnalPanelView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 599FC8152B9CDFC60019F511 /* HymnalPanelView.swift */; };
+		599FC81A2B9CDFC60019F511 /* HymnalView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 599FC8162B9CDFC60019F511 /* HymnalView.swift */; };
+		599FC81B2B9CDFC60019F511 /* HymnalView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 599FC8162B9CDFC60019F511 /* HymnalView.swift */; };
+		599FC81C2B9CDFC60019F511 /* HymnalView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 599FC8162B9CDFC60019F511 /* HymnalView.swift */; };
+		599FC81F2B9CDFF10019F511 /* LiturgyView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 599FC81E2B9CDFF00019F511 /* LiturgyView.swift */; };
+		599FC8202B9CDFF10019F511 /* LiturgyView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 599FC81E2B9CDFF00019F511 /* LiturgyView.swift */; };
+		599FC8212B9CDFF10019F511 /* LiturgyView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 599FC81E2B9CDFF00019F511 /* LiturgyView.swift */; };
+		599FC8232B9E01120019F511 /* NoteViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 599FC8222B9E01120019F511 /* NoteViewModel.swift */; };
+		599FC8242B9E01120019F511 /* NoteViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 599FC8222B9E01120019F511 /* NoteViewModel.swift */; };
+		599FC8252B9E01120019F511 /* NoteViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 599FC8222B9E01120019F511 /* NoteViewModel.swift */; };
+		599FC8272BA09FAB0019F511 /* EvangelismView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 599FC8262BA09FAB0019F511 /* EvangelismView.swift */; };
+		7313D8C271393EC81AEFD72D /* Pods_Methodist_Church_AppTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B1557537324B8DF4C777E926 /* Pods_Methodist_Church_AppTests.framework */; };
+		7D9DE9D230B9D9AEACD5EB18 /* Pods_Methodist_Church_App_Methodist_Church_AppUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BC9CCD21E3A7C85F61766496 /* Pods_Methodist_Church_App_Methodist_Church_AppUITests.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		599FC6CC2B9CD8580019F511 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 599FC6AE2B9CD8550019F511 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 599FC6B52B9CD8560019F511;
+			remoteInfo = "Methodist Church App";
+		};
+		599FC6D62B9CD8590019F511 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 599FC6AE2B9CD8550019F511 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 599FC6B52B9CD8560019F511;
+			remoteInfo = "Methodist Church App";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		33C93E0E52A6FE9F08E30B21 /* Pods_Methodist_Church_App.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Methodist_Church_App.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		3F7291BAEAD5E8D41E041B09 /* Pods-Methodist Church App-Methodist Church AppUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Methodist Church App-Methodist Church AppUITests.debug.xcconfig"; path = "Target Support Files/Pods-Methodist Church App-Methodist Church AppUITests/Pods-Methodist Church App-Methodist Church AppUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		45765CABA8C1869D67C98279 /* Pods-Methodist Church AppTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Methodist Church AppTests.debug.xcconfig"; path = "Target Support Files/Pods-Methodist Church AppTests/Pods-Methodist Church AppTests.debug.xcconfig"; sourceTree = "<group>"; };
+		599FC6B62B9CD8560019F511 /* Methodist Church App.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Methodist Church App.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		599FC6B92B9CD8560019F511 /* Methodist_Church_AppApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Methodist_Church_AppApp.swift; sourceTree = "<group>"; };
+		599FC6BB2B9CD8560019F511 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		599FC6BD2B9CD8580019F511 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		599FC6C02B9CD8580019F511 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		599FC6C22B9CD8580019F511 /* Persistence.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Persistence.swift; sourceTree = "<group>"; };
+		599FC6C52B9CD8580019F511 /* Methodist_Church_App.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = Methodist_Church_App.xcdatamodel; sourceTree = "<group>"; };
+		599FC6CB2B9CD8580019F511 /* Methodist Church AppTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Methodist Church AppTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		599FC6CF2B9CD8580019F511 /* Methodist_Church_AppTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Methodist_Church_AppTests.swift; sourceTree = "<group>"; };
+		599FC6D52B9CD8590019F511 /* Methodist Church AppUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Methodist Church AppUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		599FC6D92B9CD8590019F511 /* Methodist_Church_AppUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Methodist_Church_AppUITests.swift; sourceTree = "<group>"; };
+		599FC6DB2B9CD8590019F511 /* Methodist_Church_AppUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Methodist_Church_AppUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		599FC6F42B9CDE0D0019F511 /* ErrorType.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ErrorType.swift; sourceTree = "<group>"; };
+		599FC6F52B9CDE0D0019F511 /* Endpoint.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Endpoint.swift; sourceTree = "<group>"; };
+		599FC6F62B9CDE0D0019F511 /* AlertDialog.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AlertDialog.swift; sourceTree = "<group>"; };
+		599FC6F72B9CDE0D0019F511 /* Globals.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Globals.swift; sourceTree = "<group>"; };
+		599FC7042B9CDE420019F511 /* Evangelism.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Evangelism.swift; sourceTree = "<group>"; };
+		599FC7052B9CDE420019F511 /* Event.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Event.swift; sourceTree = "<group>"; };
+		599FC7062B9CDE420019F511 /* Church.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Church.swift; sourceTree = "<group>"; };
+		599FC7072B9CDE420019F511 /* Note.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Note.swift; sourceTree = "<group>"; };
+		599FC7082B9CDE420019F511 /* Diocese.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Diocese.swift; sourceTree = "<group>"; };
+		599FC7092B9CDE420019F511 /* OrganizationMember.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = OrganizationMember.swift; sourceTree = "<group>"; };
+		599FC70A2B9CDE420019F511 /* AlertItem.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AlertItem.swift; sourceTree = "<group>"; };
+		599FC70B2B9CDE420019F511 /* LiturgyExpansionTile.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LiturgyExpansionTile.swift; sourceTree = "<group>"; };
+		599FC70C2B9CDE420019F511 /* LiturgyContent.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LiturgyContent.swift; sourceTree = "<group>"; };
+		599FC70D2B9CDE420019F511 /* Attendance.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Attendance.swift; sourceTree = "<group>"; };
+		599FC70E2B9CDE420019F511 /* SocietyEvent.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SocietyEvent.swift; sourceTree = "<group>"; };
+		599FC70F2B9CDE420019F511 /* News.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = News.swift; sourceTree = "<group>"; };
+		599FC7102B9CDE420019F511 /* AttendanceMember.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AttendanceMember.swift; sourceTree = "<group>"; };
+		599FC7112B9CDE430019F511 /* Hymnal.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Hymnal.swift; sourceTree = "<group>"; };
+		599FC7122B9CDE430019F511 /* Organization.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Organization.swift; sourceTree = "<group>"; };
+		599FC7132B9CDE430019F511 /* AuthUser.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AuthUser.swift; sourceTree = "<group>"; };
+		599FC7442B9CDE5C0019F511 /* LoginRequest.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LoginRequest.swift; sourceTree = "<group>"; };
+		599FC7452B9CDE5C0019F511 /* PasswordResetRequest.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PasswordResetRequest.swift; sourceTree = "<group>"; };
+		599FC74C2B9CDE6B0019F511 /* JoinOrganizationResponse.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = JoinOrganizationResponse.swift; sourceTree = "<group>"; };
+		599FC7502B9CDE800019F511 /* UserStore.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UserStore.swift; sourceTree = "<group>"; };
+		599FC7512B9CDE800019F511 /* EventStore.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = EventStore.swift; sourceTree = "<group>"; };
+		599FC7522B9CDE800019F511 /* Store.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Store.swift; sourceTree = "<group>"; };
+		599FC75C2B9CDE990019F511 /* FantseHymnalData.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FantseHymnalData.swift; sourceTree = "<group>"; };
+		599FC75D2B9CDE990019F511 /* HymnalData.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HymnalData.swift; sourceTree = "<group>"; };
+		599FC75E2B9CDE990019F511 /* DioceseData.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DioceseData.swift; sourceTree = "<group>"; };
+		599FC75F2B9CDE990019F511 /* FantseCanticleData.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FantseCanticleData.swift; sourceTree = "<group>"; };
+		599FC7602B9CDE990019F511 /* EvangelismData.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = EvangelismData.swift; sourceTree = "<group>"; };
+		599FC7612B9CDE990019F511 /* LiturgyData.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LiturgyData.swift; sourceTree = "<group>"; };
+		599FC7622B9CDE990019F511 /* OtherHymnal.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = OtherHymnal.swift; sourceTree = "<group>"; };
+		599FC7782B9CDEC70019F511 /* AuthViewModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AuthViewModel.swift; sourceTree = "<group>"; };
+		599FC7792B9CDEC70019F511 /* OrganizationViewModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = OrganizationViewModel.swift; sourceTree = "<group>"; };
+		599FC77A2B9CDEC70019F511 /* LocationViewModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LocationViewModel.swift; sourceTree = "<group>"; };
+		599FC77B2B9CDEC80019F511 /* NewsViewModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NewsViewModel.swift; sourceTree = "<group>"; };
+		599FC77C2B9CDEC80019F511 /* ChurchViewModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ChurchViewModel.swift; sourceTree = "<group>"; };
+		599FC77D2B9CDEC80019F511 /* SocietyEventViewModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SocietyEventViewModel.swift; sourceTree = "<group>"; };
+		599FC77E2B9CDEC80019F511 /* HymnalViewModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HymnalViewModel.swift; sourceTree = "<group>"; };
+		599FC77F2B9CDEC80019F511 /* ClassAttendanceViewModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ClassAttendanceViewModel.swift; sourceTree = "<group>"; };
+		599FC7982B9CDEEB0019F511 /* ManageClassView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ManageClassView.swift; sourceTree = "<group>"; };
+		599FC7992B9CDEEB0019F511 /* MethodismView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MethodismView.swift; sourceTree = "<group>"; };
+		599FC79A2B9CDEEB0019F511 /* OrganizationView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = OrganizationView.swift; sourceTree = "<group>"; };
+		599FC79B2B9CDEEB0019F511 /* ContactView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ContactView.swift; sourceTree = "<group>"; };
+		599FC79C2B9CDEEB0019F511 /* NearbyChurchView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NearbyChurchView.swift; sourceTree = "<group>"; };
+		599FC79D2B9CDEEB0019F511 /* DashboardView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DashboardView.swift; sourceTree = "<group>"; };
+		599FC79E2B9CDEEB0019F511 /* FinancialRecordView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FinancialRecordView.swift; sourceTree = "<group>"; };
+		599FC79F2B9CDEEB0019F511 /* ShopView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ShopView.swift; sourceTree = "<group>"; };
+		599FC7A02B9CDEEB0019F511 /* FindView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FindView.swift; sourceTree = "<group>"; };
+		599FC7A12B9CDEEB0019F511 /* HomeView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HomeView.swift; sourceTree = "<group>"; };
+		599FC7A22B9CDEEB0019F511 /* PaymentView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PaymentView.swift; sourceTree = "<group>"; };
+		599FC7C52B9CDF390019F511 /* CarouselView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CarouselView.swift; sourceTree = "<group>"; };
+		599FC7C62B9CDF390019F511 /* ExpansionTile.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ExpansionTile.swift; sourceTree = "<group>"; };
+		599FC7C72B9CDF390019F511 /* Wave.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Wave.swift; sourceTree = "<group>"; };
+		599FC7C82B9CDF390019F511 /* AppbarView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AppbarView.swift; sourceTree = "<group>"; };
+		599FC7C92B9CDF390019F511 /* CustomAppbar.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CustomAppbar.swift; sourceTree = "<group>"; };
+		599FC7CA2B9CDF390019F511 /* NavbarButton.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NavbarButton.swift; sourceTree = "<group>"; };
+		599FC7CB2B9CDF390019F511 /* CustomInputField.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CustomInputField.swift; sourceTree = "<group>"; };
+		599FC7CC2B9CDF3A0019F511 /* DashboardMenuButton.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DashboardMenuButton.swift; sourceTree = "<group>"; };
+		599FC7CD2B9CDF3A0019F511 /* ExpandableTextView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ExpandableTextView.swift; sourceTree = "<group>"; };
+		599FC7CE2B9CDF3A0019F511 /* Shimmer.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Shimmer.swift; sourceTree = "<group>"; };
+		599FC7CF2B9CDF3A0019F511 /* AccordinView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AccordinView.swift; sourceTree = "<group>"; };
+		599FC7D02B9CDF3A0019F511 /* SideMenuHeaderView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SideMenuHeaderView.swift; sourceTree = "<group>"; };
+		599FC7D12B9CDF3A0019F511 /* RadioButton.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RadioButton.swift; sourceTree = "<group>"; };
+		599FC7D22B9CDF3A0019F511 /* Appbar_1.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Appbar_1.swift; sourceTree = "<group>"; };
+		599FC7D32B9CDF3A0019F511 /* SideMenuView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SideMenuView.swift; sourceTree = "<group>"; };
+		599FC8032B9CDF6D0019F511 /* SignUpView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SignUpView.swift; sourceTree = "<group>"; };
+		599FC8072B9CDF810019F511 /* NewsView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NewsView.swift; sourceTree = "<group>"; };
+		599FC80C2B9CDFA20019F511 /* NoteListView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NoteListView.swift; sourceTree = "<group>"; };
+		599FC80D2B9CDFA20019F511 /* AddNoteView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AddNoteView.swift; sourceTree = "<group>"; };
+		599FC8152B9CDFC60019F511 /* HymnalPanelView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HymnalPanelView.swift; sourceTree = "<group>"; };
+		599FC8162B9CDFC60019F511 /* HymnalView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HymnalView.swift; sourceTree = "<group>"; };
+		599FC81E2B9CDFF00019F511 /* LiturgyView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LiturgyView.swift; sourceTree = "<group>"; };
+		599FC8222B9E01120019F511 /* NoteViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NoteViewModel.swift; sourceTree = "<group>"; };
+		599FC8262BA09FAB0019F511 /* EvangelismView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EvangelismView.swift; sourceTree = "<group>"; };
+		A026BFAFEA05F4B82C544891 /* Pods-Methodist Church AppTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Methodist Church AppTests.release.xcconfig"; path = "Target Support Files/Pods-Methodist Church AppTests/Pods-Methodist Church AppTests.release.xcconfig"; sourceTree = "<group>"; };
+		B1557537324B8DF4C777E926 /* Pods_Methodist_Church_AppTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Methodist_Church_AppTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		BC9CCD21E3A7C85F61766496 /* Pods_Methodist_Church_App_Methodist_Church_AppUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Methodist_Church_App_Methodist_Church_AppUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		BFC94F7CA7F2A8A275AF33B3 /* Pods-Methodist Church App.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Methodist Church App.release.xcconfig"; path = "Target Support Files/Pods-Methodist Church App/Pods-Methodist Church App.release.xcconfig"; sourceTree = "<group>"; };
+		C462FB196642B41B94CA142E /* Pods-Methodist Church App-Methodist Church AppUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Methodist Church App-Methodist Church AppUITests.release.xcconfig"; path = "Target Support Files/Pods-Methodist Church App-Methodist Church AppUITests/Pods-Methodist Church App-Methodist Church AppUITests.release.xcconfig"; sourceTree = "<group>"; };
+		E766DF4C95E2DD72D8B11E6D /* Pods-Methodist Church App.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Methodist Church App.debug.xcconfig"; path = "Target Support Files/Pods-Methodist Church App/Pods-Methodist Church App.debug.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		599FC6B32B9CD8560019F511 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				596B60F3201CFC9C21EA2A2D /* Pods_Methodist_Church_App.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		599FC6C82B9CD8580019F511 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7313D8C271393EC81AEFD72D /* Pods_Methodist_Church_AppTests.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		599FC6D22B9CD8590019F511 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7D9DE9D230B9D9AEACD5EB18 /* Pods_Methodist_Church_App_Methodist_Church_AppUITests.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		423B504FC54AF8E9F3D68A58 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				33C93E0E52A6FE9F08E30B21 /* Pods_Methodist_Church_App.framework */,
+				BC9CCD21E3A7C85F61766496 /* Pods_Methodist_Church_App_Methodist_Church_AppUITests.framework */,
+				B1557537324B8DF4C777E926 /* Pods_Methodist_Church_AppTests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		56F621862F3E9F15786A5054 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				E766DF4C95E2DD72D8B11E6D /* Pods-Methodist Church App.debug.xcconfig */,
+				BFC94F7CA7F2A8A275AF33B3 /* Pods-Methodist Church App.release.xcconfig */,
+				3F7291BAEAD5E8D41E041B09 /* Pods-Methodist Church App-Methodist Church AppUITests.debug.xcconfig */,
+				C462FB196642B41B94CA142E /* Pods-Methodist Church App-Methodist Church AppUITests.release.xcconfig */,
+				45765CABA8C1869D67C98279 /* Pods-Methodist Church AppTests.debug.xcconfig */,
+				A026BFAFEA05F4B82C544891 /* Pods-Methodist Church AppTests.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+		599FC6AD2B9CD8550019F511 = {
+			isa = PBXGroup;
+			children = (
+				599FC6B82B9CD8560019F511 /* Methodist Church App */,
+				599FC6CE2B9CD8580019F511 /* Methodist Church AppTests */,
+				599FC6D82B9CD8590019F511 /* Methodist Church AppUITests */,
+				599FC6B72B9CD8560019F511 /* Products */,
+				56F621862F3E9F15786A5054 /* Pods */,
+				423B504FC54AF8E9F3D68A58 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		599FC6B72B9CD8560019F511 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				599FC6B62B9CD8560019F511 /* Methodist Church App.app */,
+				599FC6CB2B9CD8580019F511 /* Methodist Church AppTests.xctest */,
+				599FC6D52B9CD8590019F511 /* Methodist Church AppUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		599FC6B82B9CD8560019F511 /* Methodist Church App */ = {
+			isa = PBXGroup;
+			children = (
+				599FC6E82B9CDCFA0019F511 /* App */,
+				599FC6B92B9CD8560019F511 /* Methodist_Church_AppApp.swift */,
+				599FC6BB2B9CD8560019F511 /* ContentView.swift */,
+				599FC6BD2B9CD8580019F511 /* Assets.xcassets */,
+				599FC6C22B9CD8580019F511 /* Persistence.swift */,
+				599FC6C42B9CD8580019F511 /* Methodist_Church_App.xcdatamodeld */,
+				599FC6BF2B9CD8580019F511 /* Preview Content */,
+			);
+			path = "Methodist Church App";
+			sourceTree = "<group>";
+		};
+		599FC6BF2B9CD8580019F511 /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				599FC6C02B9CD8580019F511 /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		599FC6CE2B9CD8580019F511 /* Methodist Church AppTests */ = {
+			isa = PBXGroup;
+			children = (
+				599FC6CF2B9CD8580019F511 /* Methodist_Church_AppTests.swift */,
+			);
+			path = "Methodist Church AppTests";
+			sourceTree = "<group>";
+		};
+		599FC6D82B9CD8590019F511 /* Methodist Church AppUITests */ = {
+			isa = PBXGroup;
+			children = (
+				599FC6D92B9CD8590019F511 /* Methodist_Church_AppUITests.swift */,
+				599FC6DB2B9CD8590019F511 /* Methodist_Church_AppUITestsLaunchTests.swift */,
+			);
+			path = "Methodist Church AppUITests";
+			sourceTree = "<group>";
+		};
+		599FC6E82B9CDCFA0019F511 /* App */ = {
+			isa = PBXGroup;
+			children = (
+				599FC6EB2B9CDD120019F511 /* DataLayer */,
+				599FC6EA2B9CDD0B0019F511 /* Helper */,
+				599FC6E92B9CDD010019F511 /* UILayer */,
+			);
+			path = App;
+			sourceTree = "<group>";
+		};
+		599FC6E92B9CDD010019F511 /* UILayer */ = {
+			isa = PBXGroup;
+			children = (
+				599FC6EE2B9CDD410019F511 /* ViewController */,
+				599FC6ED2B9CDD350019F511 /* Screen */,
+				599FC6EC2B9CDD2B0019F511 /* ViewModel */,
+			);
+			path = UILayer;
+			sourceTree = "<group>";
+		};
+		599FC6EA2B9CDD0B0019F511 /* Helper */ = {
+			isa = PBXGroup;
+			children = (
+				599FC6F62B9CDE0D0019F511 /* AlertDialog.swift */,
+				599FC6F52B9CDE0D0019F511 /* Endpoint.swift */,
+				599FC6F42B9CDE0D0019F511 /* ErrorType.swift */,
+				599FC6F72B9CDE0D0019F511 /* Globals.swift */,
+			);
+			path = Helper;
+			sourceTree = "<group>";
+		};
+		599FC6EB2B9CDD120019F511 /* DataLayer */ = {
+			isa = PBXGroup;
+			children = (
+				599FC6F32B9CDDB50019F511 /* LocalData */,
+				599FC6F22B9CDDAD0019F511 /* Networking */,
+				599FC6F12B9CDDA50019F511 /* Model */,
+				599FC6F02B9CDD9A0019F511 /* Request */,
+				599FC6EF2B9CDD940019F511 /* Response */,
+			);
+			path = DataLayer;
+			sourceTree = "<group>";
+		};
+		599FC6EC2B9CDD2B0019F511 /* ViewModel */ = {
+			isa = PBXGroup;
+			children = (
+				599FC7782B9CDEC70019F511 /* AuthViewModel.swift */,
+				599FC77C2B9CDEC80019F511 /* ChurchViewModel.swift */,
+				599FC77F2B9CDEC80019F511 /* ClassAttendanceViewModel.swift */,
+				599FC77E2B9CDEC80019F511 /* HymnalViewModel.swift */,
+				599FC77A2B9CDEC70019F511 /* LocationViewModel.swift */,
+				599FC77B2B9CDEC80019F511 /* NewsViewModel.swift */,
+				599FC7792B9CDEC70019F511 /* OrganizationViewModel.swift */,
+				599FC77D2B9CDEC80019F511 /* SocietyEventViewModel.swift */,
+				599FC8222B9E01120019F511 /* NoteViewModel.swift */,
+			);
+			path = ViewModel;
+			sourceTree = "<group>";
+		};
+		599FC6ED2B9CDD350019F511 /* Screen */ = {
+			isa = PBXGroup;
+			children = (
+				599FC81D2B9CDFDF0019F511 /* Liturgy */,
+				599FC8142B9CDFB50019F511 /* Hymnal */,
+				599FC80B2B9CDF900019F511 /* Note */,
+				599FC8022B9CDF5C0019F511 /* Auth */,
+				599FC8012B9CDF530019F511 /* News */,
+				599FC7C42B9CDF140019F511 /* Component */,
+				599FC79B2B9CDEEB0019F511 /* ContactView.swift */,
+				599FC79D2B9CDEEB0019F511 /* DashboardView.swift */,
+				599FC79E2B9CDEEB0019F511 /* FinancialRecordView.swift */,
+				599FC7A02B9CDEEB0019F511 /* FindView.swift */,
+				599FC7A12B9CDEEB0019F511 /* HomeView.swift */,
+				599FC79A2B9CDEEB0019F511 /* OrganizationView.swift */,
+				599FC7982B9CDEEB0019F511 /* ManageClassView.swift */,
+				599FC7992B9CDEEB0019F511 /* MethodismView.swift */,
+				599FC79C2B9CDEEB0019F511 /* NearbyChurchView.swift */,
+				599FC7A22B9CDEEB0019F511 /* PaymentView.swift */,
+				599FC79F2B9CDEEB0019F511 /* ShopView.swift */,
+				599FC8262BA09FAB0019F511 /* EvangelismView.swift */,
+			);
+			path = Screen;
+			sourceTree = "<group>";
+		};
+		599FC6EE2B9CDD410019F511 /* ViewController */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = ViewController;
+			sourceTree = "<group>";
+		};
+		599FC6EF2B9CDD940019F511 /* Response */ = {
+			isa = PBXGroup;
+			children = (
+				599FC74C2B9CDE6B0019F511 /* JoinOrganizationResponse.swift */,
+			);
+			path = Response;
+			sourceTree = "<group>";
+		};
+		599FC6F02B9CDD9A0019F511 /* Request */ = {
+			isa = PBXGroup;
+			children = (
+				599FC7442B9CDE5C0019F511 /* LoginRequest.swift */,
+				599FC7452B9CDE5C0019F511 /* PasswordResetRequest.swift */,
+			);
+			path = Request;
+			sourceTree = "<group>";
+		};
+		599FC6F12B9CDDA50019F511 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				599FC70A2B9CDE420019F511 /* AlertItem.swift */,
+				599FC70D2B9CDE420019F511 /* Attendance.swift */,
+				599FC7102B9CDE420019F511 /* AttendanceMember.swift */,
+				599FC7132B9CDE430019F511 /* AuthUser.swift */,
+				599FC7062B9CDE420019F511 /* Church.swift */,
+				599FC7082B9CDE420019F511 /* Diocese.swift */,
+				599FC7042B9CDE420019F511 /* Evangelism.swift */,
+				599FC7052B9CDE420019F511 /* Event.swift */,
+				599FC7112B9CDE430019F511 /* Hymnal.swift */,
+				599FC70C2B9CDE420019F511 /* LiturgyContent.swift */,
+				599FC70B2B9CDE420019F511 /* LiturgyExpansionTile.swift */,
+				599FC70F2B9CDE420019F511 /* News.swift */,
+				599FC7072B9CDE420019F511 /* Note.swift */,
+				599FC7122B9CDE430019F511 /* Organization.swift */,
+				599FC7092B9CDE420019F511 /* OrganizationMember.swift */,
+				599FC70E2B9CDE420019F511 /* SocietyEvent.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		599FC6F22B9CDDAD0019F511 /* Networking */ = {
+			isa = PBXGroup;
+			children = (
+				599FC7512B9CDE800019F511 /* EventStore.swift */,
+				599FC7522B9CDE800019F511 /* Store.swift */,
+				599FC7502B9CDE800019F511 /* UserStore.swift */,
+			);
+			path = Networking;
+			sourceTree = "<group>";
+		};
+		599FC6F32B9CDDB50019F511 /* LocalData */ = {
+			isa = PBXGroup;
+			children = (
+				599FC75E2B9CDE990019F511 /* DioceseData.swift */,
+				599FC7602B9CDE990019F511 /* EvangelismData.swift */,
+				599FC75F2B9CDE990019F511 /* FantseCanticleData.swift */,
+				599FC75C2B9CDE990019F511 /* FantseHymnalData.swift */,
+				599FC75D2B9CDE990019F511 /* HymnalData.swift */,
+				599FC7612B9CDE990019F511 /* LiturgyData.swift */,
+				599FC7622B9CDE990019F511 /* OtherHymnal.swift */,
+			);
+			path = LocalData;
+			sourceTree = "<group>";
+		};
+		599FC7C42B9CDF140019F511 /* Component */ = {
+			isa = PBXGroup;
+			children = (
+				599FC7CF2B9CDF3A0019F511 /* AccordinView.swift */,
+				599FC7D22B9CDF3A0019F511 /* Appbar_1.swift */,
+				599FC7C82B9CDF390019F511 /* AppbarView.swift */,
+				599FC7C52B9CDF390019F511 /* CarouselView.swift */,
+				599FC7C92B9CDF390019F511 /* CustomAppbar.swift */,
+				599FC7CB2B9CDF390019F511 /* CustomInputField.swift */,
+				599FC7CC2B9CDF3A0019F511 /* DashboardMenuButton.swift */,
+				599FC7CD2B9CDF3A0019F511 /* ExpandableTextView.swift */,
+				599FC7C62B9CDF390019F511 /* ExpansionTile.swift */,
+				599FC7CA2B9CDF390019F511 /* NavbarButton.swift */,
+				599FC7D12B9CDF3A0019F511 /* RadioButton.swift */,
+				599FC7CE2B9CDF3A0019F511 /* Shimmer.swift */,
+				599FC7D02B9CDF3A0019F511 /* SideMenuHeaderView.swift */,
+				599FC7D32B9CDF3A0019F511 /* SideMenuView.swift */,
+				599FC7C72B9CDF390019F511 /* Wave.swift */,
+			);
+			path = Component;
+			sourceTree = "<group>";
+		};
+		599FC8012B9CDF530019F511 /* News */ = {
+			isa = PBXGroup;
+			children = (
+				599FC8072B9CDF810019F511 /* NewsView.swift */,
+			);
+			path = News;
+			sourceTree = "<group>";
+		};
+		599FC8022B9CDF5C0019F511 /* Auth */ = {
+			isa = PBXGroup;
+			children = (
+				599FC8032B9CDF6D0019F511 /* SignUpView.swift */,
+			);
+			path = Auth;
+			sourceTree = "<group>";
+		};
+		599FC80B2B9CDF900019F511 /* Note */ = {
+			isa = PBXGroup;
+			children = (
+				599FC80D2B9CDFA20019F511 /* AddNoteView.swift */,
+				599FC80C2B9CDFA20019F511 /* NoteListView.swift */,
+			);
+			path = Note;
+			sourceTree = "<group>";
+		};
+		599FC8142B9CDFB50019F511 /* Hymnal */ = {
+			isa = PBXGroup;
+			children = (
+				599FC8152B9CDFC60019F511 /* HymnalPanelView.swift */,
+				599FC8162B9CDFC60019F511 /* HymnalView.swift */,
+			);
+			path = Hymnal;
+			sourceTree = "<group>";
+		};
+		599FC81D2B9CDFDF0019F511 /* Liturgy */ = {
+			isa = PBXGroup;
+			children = (
+				599FC81E2B9CDFF00019F511 /* LiturgyView.swift */,
+			);
+			path = Liturgy;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		599FC6B52B9CD8560019F511 /* Methodist Church App */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 599FC6DF2B9CD8590019F511 /* Build configuration list for PBXNativeTarget "Methodist Church App" */;
+			buildPhases = (
+				B35E9B0B6D147457D2881DBE /* [CP] Check Pods Manifest.lock */,
+				599FC6B22B9CD8560019F511 /* Sources */,
+				599FC6B32B9CD8560019F511 /* Frameworks */,
+				599FC6B42B9CD8560019F511 /* Resources */,
+				3E167C2008AF94188C42A795 /* [CP] Embed Pods Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Methodist Church App";
+			productName = "Methodist Church App";
+			productReference = 599FC6B62B9CD8560019F511 /* Methodist Church App.app */;
+			productType = "com.apple.product-type.application";
+		};
+		599FC6CA2B9CD8580019F511 /* Methodist Church AppTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 599FC6E22B9CD8590019F511 /* Build configuration list for PBXNativeTarget "Methodist Church AppTests" */;
+			buildPhases = (
+				567626785E708D255CEC8079 /* [CP] Check Pods Manifest.lock */,
+				599FC6C72B9CD8580019F511 /* Sources */,
+				599FC6C82B9CD8580019F511 /* Frameworks */,
+				599FC6C92B9CD8580019F511 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				599FC6CD2B9CD8580019F511 /* PBXTargetDependency */,
+			);
+			name = "Methodist Church AppTests";
+			productName = "Methodist Church AppTests";
+			productReference = 599FC6CB2B9CD8580019F511 /* Methodist Church AppTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		599FC6D42B9CD8590019F511 /* Methodist Church AppUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 599FC6E52B9CD8590019F511 /* Build configuration list for PBXNativeTarget "Methodist Church AppUITests" */;
+			buildPhases = (
+				925BC2FBB1E4087D52A986F7 /* [CP] Check Pods Manifest.lock */,
+				599FC6D12B9CD8590019F511 /* Sources */,
+				599FC6D22B9CD8590019F511 /* Frameworks */,
+				599FC6D32B9CD8590019F511 /* Resources */,
+				D0E04AF54705613C9D2FFF1C /* [CP] Embed Pods Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				599FC6D72B9CD8590019F511 /* PBXTargetDependency */,
+			);
+			name = "Methodist Church AppUITests";
+			productName = "Methodist Church AppUITests";
+			productReference = 599FC6D52B9CD8590019F511 /* Methodist Church AppUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		599FC6AE2B9CD8550019F511 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1420;
+				LastUpgradeCheck = 1420;
+				TargetAttributes = {
+					599FC6B52B9CD8560019F511 = {
+						CreatedOnToolsVersion = 14.2;
+					};
+					599FC6CA2B9CD8580019F511 = {
+						CreatedOnToolsVersion = 14.2;
+						TestTargetID = 599FC6B52B9CD8560019F511;
+					};
+					599FC6D42B9CD8590019F511 = {
+						CreatedOnToolsVersion = 14.2;
+						TestTargetID = 599FC6B52B9CD8560019F511;
+					};
+				};
+			};
+			buildConfigurationList = 599FC6B12B9CD8550019F511 /* Build configuration list for PBXProject "Methodist Church App" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 599FC6AD2B9CD8550019F511;
+			productRefGroup = 599FC6B72B9CD8560019F511 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				599FC6B52B9CD8560019F511 /* Methodist Church App */,
+				599FC6CA2B9CD8580019F511 /* Methodist Church AppTests */,
+				599FC6D42B9CD8590019F511 /* Methodist Church AppUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		599FC6B42B9CD8560019F511 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				599FC6C12B9CD8580019F511 /* Preview Assets.xcassets in Resources */,
+				599FC6BE2B9CD8580019F511 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		599FC6C92B9CD8580019F511 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		599FC6D32B9CD8590019F511 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		3E167C2008AF94188C42A795 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Methodist Church App/Pods-Methodist Church App-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Methodist Church App/Pods-Methodist Church App-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-Methodist Church App/Pods-Methodist Church App-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		567626785E708D255CEC8079 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-Methodist Church AppTests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		925BC2FBB1E4087D52A986F7 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-Methodist Church App-Methodist Church AppUITests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		B35E9B0B6D147457D2881DBE /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-Methodist Church App-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		D0E04AF54705613C9D2FFF1C /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Methodist Church App-Methodist Church AppUITests/Pods-Methodist Church App-Methodist Church AppUITests-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Methodist Church App-Methodist Church AppUITests/Pods-Methodist Church App-Methodist Church AppUITests-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-Methodist Church App-Methodist Church AppUITests/Pods-Methodist Church App-Methodist Church AppUITests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		599FC6B22B9CD8560019F511 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				599FC7322B9CDE430019F511 /* SocietyEvent.swift in Sources */,
+				599FC7F52B9CDF3A0019F511 /* SideMenuHeaderView.swift in Sources */,
+				599FC7A92B9CDEEB0019F511 /* OrganizationView.swift in Sources */,
+				599FC7232B9CDE430019F511 /* OrganizationMember.swift in Sources */,
+				599FC7382B9CDE430019F511 /* AttendanceMember.swift in Sources */,
+				599FC8272BA09FAB0019F511 /* EvangelismView.swift in Sources */,
+				599FC7DD2B9CDF3A0019F511 /* AppbarView.swift in Sources */,
+				599FC74D2B9CDE6B0019F511 /* JoinOrganizationResponse.swift in Sources */,
+				599FC7A62B9CDEEB0019F511 /* MethodismView.swift in Sources */,
+				599FC6C32B9CD8580019F511 /* Persistence.swift in Sources */,
+				599FC7E02B9CDF3A0019F511 /* CustomAppbar.swift in Sources */,
+				599FC7FE2B9CDF3A0019F511 /* SideMenuView.swift in Sources */,
+				599FC8232B9E01120019F511 /* NoteViewModel.swift in Sources */,
+				599FC7752B9CDE990019F511 /* OtherHymnal.swift in Sources */,
+				599FC8082B9CDF810019F511 /* NewsView.swift in Sources */,
+				599FC7802B9CDEC80019F511 /* AuthViewModel.swift in Sources */,
+				599FC6F82B9CDE0D0019F511 /* ErrorType.swift in Sources */,
+				599FC7B22B9CDEEB0019F511 /* DashboardView.swift in Sources */,
+				599FC7E92B9CDF3A0019F511 /* DashboardMenuButton.swift in Sources */,
+				599FC6BC2B9CD8560019F511 /* ContentView.swift in Sources */,
+				599FC7922B9CDEC80019F511 /* HymnalViewModel.swift in Sources */,
+				599FC7D42B9CDF3A0019F511 /* CarouselView.swift in Sources */,
+				599FC6C62B9CD8580019F511 /* Methodist_Church_App.xcdatamodeld in Sources */,
+				599FC7FB2B9CDF3A0019F511 /* Appbar_1.swift in Sources */,
+				599FC81A2B9CDFC60019F511 /* HymnalView.swift in Sources */,
+				599FC76F2B9CDE990019F511 /* EvangelismData.swift in Sources */,
+				599FC7172B9CDE430019F511 /* Event.swift in Sources */,
+				599FC7E32B9CDF3A0019F511 /* NavbarButton.swift in Sources */,
+				599FC7492B9CDE5C0019F511 /* PasswordResetRequest.swift in Sources */,
+				599FC7892B9CDEC80019F511 /* NewsViewModel.swift in Sources */,
+				599FC72F2B9CDE430019F511 /* Attendance.swift in Sources */,
+				599FC8172B9CDFC60019F511 /* HymnalPanelView.swift in Sources */,
+				599FC7AC2B9CDEEB0019F511 /* ContactView.swift in Sources */,
+				599FC78C2B9CDEC80019F511 /* ChurchViewModel.swift in Sources */,
+				599FC7F22B9CDF3A0019F511 /* AccordinView.swift in Sources */,
+				599FC7EC2B9CDF3A0019F511 /* ExpandableTextView.swift in Sources */,
+				599FC80E2B9CDFA20019F511 /* NoteListView.swift in Sources */,
+				599FC7E62B9CDF3A0019F511 /* CustomInputField.swift in Sources */,
+				599FC7012B9CDE0D0019F511 /* Globals.swift in Sources */,
+				599FC7412B9CDE430019F511 /* AuthUser.swift in Sources */,
+				599FC6FE2B9CDE0D0019F511 /* AlertDialog.swift in Sources */,
+				599FC7662B9CDE990019F511 /* HymnalData.swift in Sources */,
+				599FC7292B9CDE430019F511 /* LiturgyExpansionTile.swift in Sources */,
+				599FC7832B9CDEC80019F511 /* OrganizationViewModel.swift in Sources */,
+				599FC7AF2B9CDEEB0019F511 /* NearbyChurchView.swift in Sources */,
+				599FC7592B9CDE800019F511 /* Store.swift in Sources */,
+				599FC7142B9CDE430019F511 /* Evangelism.swift in Sources */,
+				599FC7562B9CDE800019F511 /* EventStore.swift in Sources */,
+				599FC7862B9CDEC80019F511 /* LocationViewModel.swift in Sources */,
+				599FC7D72B9CDF3A0019F511 /* ExpansionTile.swift in Sources */,
+				599FC71A2B9CDE430019F511 /* Church.swift in Sources */,
+				599FC73E2B9CDE430019F511 /* Organization.swift in Sources */,
+				599FC6FB2B9CDE0D0019F511 /* Endpoint.swift in Sources */,
+				599FC7EF2B9CDF3A0019F511 /* Shimmer.swift in Sources */,
+				599FC7202B9CDE430019F511 /* Diocese.swift in Sources */,
+				599FC7B82B9CDEEB0019F511 /* ShopView.swift in Sources */,
+				599FC7462B9CDE5C0019F511 /* LoginRequest.swift in Sources */,
+				599FC7BE2B9CDEEB0019F511 /* HomeView.swift in Sources */,
+				599FC8112B9CDFA20019F511 /* AddNoteView.swift in Sources */,
+				599FC8042B9CDF6D0019F511 /* SignUpView.swift in Sources */,
+				599FC7A32B9CDEEB0019F511 /* ManageClassView.swift in Sources */,
+				599FC81F2B9CDFF10019F511 /* LiturgyView.swift in Sources */,
+				599FC73B2B9CDE430019F511 /* Hymnal.swift in Sources */,
+				599FC7B52B9CDEEB0019F511 /* FinancialRecordView.swift in Sources */,
+				599FC7BB2B9CDEEB0019F511 /* FindView.swift in Sources */,
+				599FC7DA2B9CDF3A0019F511 /* Wave.swift in Sources */,
+				599FC7532B9CDE800019F511 /* UserStore.swift in Sources */,
+				599FC6BA2B9CD8560019F511 /* Methodist_Church_AppApp.swift in Sources */,
+				599FC7C12B9CDEEB0019F511 /* PaymentView.swift in Sources */,
+				599FC78F2B9CDEC80019F511 /* SocietyEventViewModel.swift in Sources */,
+				599FC7692B9CDE990019F511 /* DioceseData.swift in Sources */,
+				599FC7262B9CDE430019F511 /* AlertItem.swift in Sources */,
+				599FC7952B9CDEC80019F511 /* ClassAttendanceViewModel.swift in Sources */,
+				599FC7722B9CDE990019F511 /* LiturgyData.swift in Sources */,
+				599FC7F82B9CDF3A0019F511 /* RadioButton.swift in Sources */,
+				599FC71D2B9CDE430019F511 /* Note.swift in Sources */,
+				599FC7352B9CDE430019F511 /* News.swift in Sources */,
+				599FC72C2B9CDE430019F511 /* LiturgyContent.swift in Sources */,
+				599FC7632B9CDE990019F511 /* FantseHymnalData.swift in Sources */,
+				599FC76C2B9CDE990019F511 /* FantseCanticleData.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		599FC6C72B9CD8580019F511 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				599FC7152B9CDE430019F511 /* Evangelism.swift in Sources */,
+				599FC7B32B9CDEEB0019F511 /* DashboardView.swift in Sources */,
+				599FC7AA2B9CDEEB0019F511 /* OrganizationView.swift in Sources */,
+				599FC8092B9CDF810019F511 /* NewsView.swift in Sources */,
+				599FC7272B9CDE430019F511 /* AlertItem.swift in Sources */,
+				599FC7872B9CDEC80019F511 /* LocationViewModel.swift in Sources */,
+				599FC8122B9CDFA20019F511 /* AddNoteView.swift in Sources */,
+				599FC72D2B9CDE430019F511 /* LiturgyContent.swift in Sources */,
+				599FC75A2B9CDE800019F511 /* Store.swift in Sources */,
+				599FC8242B9E01120019F511 /* NoteViewModel.swift in Sources */,
+				599FC74A2B9CDE5C0019F511 /* PasswordResetRequest.swift in Sources */,
+				599FC7242B9CDE430019F511 /* OrganizationMember.swift in Sources */,
+				599FC6FF2B9CDE0D0019F511 /* AlertDialog.swift in Sources */,
+				599FC7C22B9CDEEB0019F511 /* PaymentView.swift in Sources */,
+				599FC7ED2B9CDF3A0019F511 /* ExpandableTextView.swift in Sources */,
+				599FC7B02B9CDEEB0019F511 /* NearbyChurchView.swift in Sources */,
+				599FC7842B9CDEC80019F511 /* OrganizationViewModel.swift in Sources */,
+				599FC78A2B9CDEC80019F511 /* NewsViewModel.swift in Sources */,
+				599FC7AD2B9CDEEB0019F511 /* ContactView.swift in Sources */,
+				599FC7762B9CDE990019F511 /* OtherHymnal.swift in Sources */,
+				599FC7FC2B9CDF3A0019F511 /* Appbar_1.swift in Sources */,
+				599FC7FF2B9CDF3A0019F511 /* SideMenuView.swift in Sources */,
+				599FC6F92B9CDE0D0019F511 /* ErrorType.swift in Sources */,
+				599FC6FC2B9CDE0D0019F511 /* Endpoint.swift in Sources */,
+				599FC7812B9CDEC80019F511 /* AuthViewModel.swift in Sources */,
+				599FC7732B9CDE990019F511 /* LiturgyData.swift in Sources */,
+				599FC7642B9CDE990019F511 /* FantseHymnalData.swift in Sources */,
+				599FC71B2B9CDE430019F511 /* Church.swift in Sources */,
+				599FC7DE2B9CDF3A0019F511 /* AppbarView.swift in Sources */,
+				599FC72A2B9CDE430019F511 /* LiturgyExpansionTile.swift in Sources */,
+				599FC8202B9CDFF10019F511 /* LiturgyView.swift in Sources */,
+				599FC78D2B9CDEC80019F511 /* ChurchViewModel.swift in Sources */,
+				599FC8052B9CDF6D0019F511 /* SignUpView.swift in Sources */,
+				599FC76A2B9CDE990019F511 /* DioceseData.swift in Sources */,
+				599FC7D82B9CDF3A0019F511 /* ExpansionTile.swift in Sources */,
+				599FC81B2B9CDFC60019F511 /* HymnalView.swift in Sources */,
+				599FC7932B9CDEC80019F511 /* HymnalViewModel.swift in Sources */,
+				599FC7302B9CDE430019F511 /* Attendance.swift in Sources */,
+				599FC7BC2B9CDEEB0019F511 /* FindView.swift in Sources */,
+				599FC7F02B9CDF3A0019F511 /* Shimmer.swift in Sources */,
+				599FC7422B9CDE430019F511 /* AuthUser.swift in Sources */,
+				599FC7F92B9CDF3A0019F511 /* RadioButton.swift in Sources */,
+				599FC71E2B9CDE430019F511 /* Note.swift in Sources */,
+				599FC7B92B9CDEEB0019F511 /* ShopView.swift in Sources */,
+				599FC7DB2B9CDF3A0019F511 /* Wave.swift in Sources */,
+				599FC7672B9CDE990019F511 /* HymnalData.swift in Sources */,
+				599FC7212B9CDE430019F511 /* Diocese.swift in Sources */,
+				599FC7022B9CDE0D0019F511 /* Globals.swift in Sources */,
+				599FC7182B9CDE430019F511 /* Event.swift in Sources */,
+				599FC7F62B9CDF3A0019F511 /* SideMenuHeaderView.swift in Sources */,
+				599FC7EA2B9CDF3A0019F511 /* DashboardMenuButton.swift in Sources */,
+				599FC7702B9CDE990019F511 /* EvangelismData.swift in Sources */,
+				599FC7902B9CDEC80019F511 /* SocietyEventViewModel.swift in Sources */,
+				599FC7F32B9CDF3A0019F511 /* AccordinView.swift in Sources */,
+				599FC7E72B9CDF3A0019F511 /* CustomInputField.swift in Sources */,
+				599FC80F2B9CDFA20019F511 /* NoteListView.swift in Sources */,
+				599FC7542B9CDE800019F511 /* UserStore.swift in Sources */,
+				599FC7E42B9CDF3A0019F511 /* NavbarButton.swift in Sources */,
+				599FC7392B9CDE430019F511 /* AttendanceMember.swift in Sources */,
+				599FC7B62B9CDEEB0019F511 /* FinancialRecordView.swift in Sources */,
+				599FC7D52B9CDF3A0019F511 /* CarouselView.swift in Sources */,
+				599FC7572B9CDE800019F511 /* EventStore.swift in Sources */,
+				599FC6D02B9CD8580019F511 /* Methodist_Church_AppTests.swift in Sources */,
+				599FC7BF2B9CDEEB0019F511 /* HomeView.swift in Sources */,
+				599FC73C2B9CDE430019F511 /* Hymnal.swift in Sources */,
+				599FC7362B9CDE430019F511 /* News.swift in Sources */,
+				599FC73F2B9CDE430019F511 /* Organization.swift in Sources */,
+				599FC7E12B9CDF3A0019F511 /* CustomAppbar.swift in Sources */,
+				599FC74E2B9CDE6B0019F511 /* JoinOrganizationResponse.swift in Sources */,
+				599FC7A42B9CDEEB0019F511 /* ManageClassView.swift in Sources */,
+				599FC7962B9CDEC80019F511 /* ClassAttendanceViewModel.swift in Sources */,
+				599FC76D2B9CDE990019F511 /* FantseCanticleData.swift in Sources */,
+				599FC8182B9CDFC60019F511 /* HymnalPanelView.swift in Sources */,
+				599FC7332B9CDE430019F511 /* SocietyEvent.swift in Sources */,
+				599FC7472B9CDE5C0019F511 /* LoginRequest.swift in Sources */,
+				599FC7A72B9CDEEB0019F511 /* MethodismView.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		599FC6D12B9CD8590019F511 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				599FC8002B9CDF3A0019F511 /* SideMenuView.swift in Sources */,
+				599FC72B2B9CDE430019F511 /* LiturgyExpansionTile.swift in Sources */,
+				599FC8102B9CDFA20019F511 /* NoteListView.swift in Sources */,
+				599FC78E2B9CDEC80019F511 /* ChurchViewModel.swift in Sources */,
+				599FC7852B9CDEC80019F511 /* OrganizationViewModel.swift in Sources */,
+				599FC7FD2B9CDF3A0019F511 /* Appbar_1.swift in Sources */,
+				599FC8192B9CDFC60019F511 /* HymnalPanelView.swift in Sources */,
+				599FC72E2B9CDE430019F511 /* LiturgyContent.swift in Sources */,
+				599FC80A2B9CDF810019F511 /* NewsView.swift in Sources */,
+				599FC7882B9CDEC80019F511 /* LocationViewModel.swift in Sources */,
+				599FC7312B9CDE430019F511 /* Attendance.swift in Sources */,
+				599FC7DF2B9CDF3A0019F511 /* AppbarView.swift in Sources */,
+				599FC7BA2B9CDEEB0019F511 /* ShopView.swift in Sources */,
+				599FC7192B9CDE430019F511 /* Event.swift in Sources */,
+				599FC7F42B9CDF3A0019F511 /* AccordinView.swift in Sources */,
+				599FC7402B9CDE430019F511 /* Organization.swift in Sources */,
+				599FC6DA2B9CD8590019F511 /* Methodist_Church_AppUITests.swift in Sources */,
+				599FC7E22B9CDF3A0019F511 /* CustomAppbar.swift in Sources */,
+				599FC7742B9CDE990019F511 /* LiturgyData.swift in Sources */,
+				599FC8212B9CDFF10019F511 /* LiturgyView.swift in Sources */,
+				599FC7B12B9CDEEB0019F511 /* NearbyChurchView.swift in Sources */,
+				599FC7652B9CDE990019F511 /* FantseHymnalData.swift in Sources */,
+				599FC8132B9CDFA20019F511 /* AddNoteView.swift in Sources */,
+				599FC78B2B9CDEC80019F511 /* NewsViewModel.swift in Sources */,
+				599FC7822B9CDEC80019F511 /* AuthViewModel.swift in Sources */,
+				599FC7222B9CDE430019F511 /* Diocese.swift in Sources */,
+				599FC75B2B9CDE800019F511 /* Store.swift in Sources */,
+				599FC7342B9CDE430019F511 /* SocietyEvent.swift in Sources */,
+				599FC71C2B9CDE430019F511 /* Church.swift in Sources */,
+				599FC7C32B9CDEEB0019F511 /* PaymentView.swift in Sources */,
+				599FC7482B9CDE5C0019F511 /* LoginRequest.swift in Sources */,
+				599FC7A82B9CDEEB0019F511 /* MethodismView.swift in Sources */,
+				599FC73D2B9CDE430019F511 /* Hymnal.swift in Sources */,
+				599FC7712B9CDE990019F511 /* EvangelismData.swift in Sources */,
+				599FC7F72B9CDF3A0019F511 /* SideMenuHeaderView.swift in Sources */,
+				599FC7582B9CDE800019F511 /* EventStore.swift in Sources */,
+				599FC7EB2B9CDF3A0019F511 /* DashboardMenuButton.swift in Sources */,
+				599FC7D92B9CDF3A0019F511 /* ExpansionTile.swift in Sources */,
+				599FC73A2B9CDE430019F511 /* AttendanceMember.swift in Sources */,
+				599FC7AE2B9CDEEB0019F511 /* ContactView.swift in Sources */,
+				599FC7552B9CDE800019F511 /* UserStore.swift in Sources */,
+				599FC7682B9CDE990019F511 /* HymnalData.swift in Sources */,
+				599FC76E2B9CDE990019F511 /* FantseCanticleData.swift in Sources */,
+				599FC74B2B9CDE5C0019F511 /* PasswordResetRequest.swift in Sources */,
+				599FC6FA2B9CDE0D0019F511 /* ErrorType.swift in Sources */,
+				599FC7032B9CDE0D0019F511 /* Globals.swift in Sources */,
+				599FC7B72B9CDEEB0019F511 /* FinancialRecordView.swift in Sources */,
+				599FC7B42B9CDEEB0019F511 /* DashboardView.swift in Sources */,
+				599FC7D62B9CDF3A0019F511 /* CarouselView.swift in Sources */,
+				599FC71F2B9CDE430019F511 /* Note.swift in Sources */,
+				599FC7772B9CDE990019F511 /* OtherHymnal.swift in Sources */,
+				599FC7A52B9CDEEB0019F511 /* ManageClassView.swift in Sources */,
+				599FC6FD2B9CDE0D0019F511 /* Endpoint.swift in Sources */,
+				599FC7AB2B9CDEEB0019F511 /* OrganizationView.swift in Sources */,
+				599FC7972B9CDEC80019F511 /* ClassAttendanceViewModel.swift in Sources */,
+				599FC7372B9CDE430019F511 /* News.swift in Sources */,
+				599FC7BD2B9CDEEB0019F511 /* FindView.swift in Sources */,
+				599FC7DC2B9CDF3A0019F511 /* Wave.swift in Sources */,
+				599FC7EE2B9CDF3A0019F511 /* ExpandableTextView.swift in Sources */,
+				599FC81C2B9CDFC60019F511 /* HymnalView.swift in Sources */,
+				599FC7E82B9CDF3A0019F511 /* CustomInputField.swift in Sources */,
+				599FC7432B9CDE430019F511 /* AuthUser.swift in Sources */,
+				599FC76B2B9CDE990019F511 /* DioceseData.swift in Sources */,
+				599FC7912B9CDEC80019F511 /* SocietyEventViewModel.swift in Sources */,
+				599FC7E52B9CDF3A0019F511 /* NavbarButton.swift in Sources */,
+				599FC7252B9CDE430019F511 /* OrganizationMember.swift in Sources */,
+				599FC7002B9CDE0D0019F511 /* AlertDialog.swift in Sources */,
+				599FC7162B9CDE430019F511 /* Evangelism.swift in Sources */,
+				599FC7C02B9CDEEB0019F511 /* HomeView.swift in Sources */,
+				599FC7FA2B9CDF3A0019F511 /* RadioButton.swift in Sources */,
+				599FC7282B9CDE430019F511 /* AlertItem.swift in Sources */,
+				599FC7942B9CDEC80019F511 /* HymnalViewModel.swift in Sources */,
+				599FC8062B9CDF6D0019F511 /* SignUpView.swift in Sources */,
+				599FC8252B9E01120019F511 /* NoteViewModel.swift in Sources */,
+				599FC7F12B9CDF3A0019F511 /* Shimmer.swift in Sources */,
+				599FC74F2B9CDE6B0019F511 /* JoinOrganizationResponse.swift in Sources */,
+				599FC6DC2B9CD8590019F511 /* Methodist_Church_AppUITestsLaunchTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		599FC6CD2B9CD8580019F511 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 599FC6B52B9CD8560019F511 /* Methodist Church App */;
+			targetProxy = 599FC6CC2B9CD8580019F511 /* PBXContainerItemProxy */;
+		};
+		599FC6D72B9CD8590019F511 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 599FC6B52B9CD8560019F511 /* Methodist Church App */;
+			targetProxy = 599FC6D62B9CD8590019F511 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		599FC6DD2B9CD8590019F511 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.2;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		599FC6DE2B9CD8590019F511 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		599FC6E02B9CD8590019F511 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = E766DF4C95E2DD72D8B11E6D /* Pods-Methodist Church App.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"Methodist Church App/Preview Content\"";
+				DEVELOPMENT_TEAM = 7K89QC3D6K;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_NSLocationAlwaysAndWhenInUseUsageDescription = "This app require access to the device's location";
+				INFOPLIST_KEY_NSLocationAlwaysUsageDescription = "This app require access to the device's location";
+				INFOPLIST_KEY_NSLocationWhenInUseUsageDescription = "This app require access to the device's location";
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.obed.Methodist-Church-App";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		599FC6E12B9CD8590019F511 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = BFC94F7CA7F2A8A275AF33B3 /* Pods-Methodist Church App.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"Methodist Church App/Preview Content\"";
+				DEVELOPMENT_TEAM = 7K89QC3D6K;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_NSLocationAlwaysAndWhenInUseUsageDescription = "This app require access to the device's location";
+				INFOPLIST_KEY_NSLocationAlwaysUsageDescription = "This app require access to the device's location";
+				INFOPLIST_KEY_NSLocationWhenInUseUsageDescription = "This app require access to the device's location";
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.obed.Methodist-Church-App";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		599FC6E32B9CD8590019F511 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 45765CABA8C1869D67C98279 /* Pods-Methodist Church AppTests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 7K89QC3D6K;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.2;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.obed.Methodist-Church-AppTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Methodist Church App.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/Methodist Church App";
+			};
+			name = Debug;
+		};
+		599FC6E42B9CD8590019F511 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = A026BFAFEA05F4B82C544891 /* Pods-Methodist Church AppTests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 7K89QC3D6K;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.2;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.obed.Methodist-Church-AppTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Methodist Church App.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/Methodist Church App";
+			};
+			name = Release;
+		};
+		599FC6E62B9CD8590019F511 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 3F7291BAEAD5E8D41E041B09 /* Pods-Methodist Church App-Methodist Church AppUITests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 7K89QC3D6K;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.obed.Methodist-Church-AppUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "Methodist Church App";
+			};
+			name = Debug;
+		};
+		599FC6E72B9CD8590019F511 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = C462FB196642B41B94CA142E /* Pods-Methodist Church App-Methodist Church AppUITests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 7K89QC3D6K;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.obed.Methodist-Church-AppUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "Methodist Church App";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		599FC6B12B9CD8550019F511 /* Build configuration list for PBXProject "Methodist Church App" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				599FC6DD2B9CD8590019F511 /* Debug */,
+				599FC6DE2B9CD8590019F511 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		599FC6DF2B9CD8590019F511 /* Build configuration list for PBXNativeTarget "Methodist Church App" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				599FC6E02B9CD8590019F511 /* Debug */,
+				599FC6E12B9CD8590019F511 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		599FC6E22B9CD8590019F511 /* Build configuration list for PBXNativeTarget "Methodist Church AppTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				599FC6E32B9CD8590019F511 /* Debug */,
+				599FC6E42B9CD8590019F511 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		599FC6E52B9CD8590019F511 /* Build configuration list for PBXNativeTarget "Methodist Church AppUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				599FC6E62B9CD8590019F511 /* Debug */,
+				599FC6E72B9CD8590019F511 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		599FC6C42B9CD8580019F511 /* Methodist_Church_App.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				599FC6C52B9CD8580019F511 /* Methodist_Church_App.xcdatamodel */,
+			);
+			currentVersion = 599FC6C52B9CD8580019F511 /* Methodist_Church_App.xcdatamodel */;
+			path = Methodist_Church_App.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = 599FC6AE2B9CD8550019F511 /* Project object */;
+}
